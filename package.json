@@ -11,7 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build && npm run copy-to-docs",
     "copy-to-docs": "rm -rf docs/* && cp -r build/* docs/",
-    "build-windows": "react-scripts build"
+    "build-windows": "react-scripts build && npm run copy-to-docs"
   },
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
